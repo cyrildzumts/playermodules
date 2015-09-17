@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.unknown.playermodules",
+    "description": "description of playermodules",
+    "framework": "ubuntu-sdk-14.10-qml-dev3",
+    "architecture": "all",
+    "title": "playermodules",
+    "hooks": {
+        "playermodules": {
+            "apparmor": "playermodules.json",
+            "desktop": "playermodules.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "cyrildz <cyrildz@gmail.com>"
+}

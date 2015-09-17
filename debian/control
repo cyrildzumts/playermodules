@@ -1,0 +1,15 @@
+Source: playermodules
+Section: Music
+Priority: optional
+Maintainer: Cyrille Ngassam Nkwenga <cyrildz@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://launchpad.net/playermodules
+#Vcs-Git: git://anonscm.debian.org/collab-maint/playermodules.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/playermodules.git;a=summary
+
+Package: playermodules
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: QML Modules for the Application Player
+ This Library is need by Player to do the needed logic work.
